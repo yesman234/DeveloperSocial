@@ -4,9 +4,9 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import Spinner from "../layout/Spinner";
 import DashboardActions from "./DashboardActions";
-import { getCurrentProfile, deleteAccount } from "../../actions/profile";
 import Experience from "./Experience";
 import Education from "./Education";
+import { getCurrentProfile, deleteAccount } from "../../actions/profile";
 
 const Dashboard = ({
   getCurrentProfile,
@@ -31,9 +31,10 @@ const Dashboard = ({
           <DashboardActions />
           <Experience experience={profile.experience} />
           <Education education={profile.education} />
+
           <div className="my-2">
-            <button className="btn btn-danger" onClick={() => deleteAccount}>
-              <i className="fas fa-user-minus"></i>Delete My Acount
+            <button className="btn btn-danger" onClick={() => deleteAccount()}>
+              <i className="fas fa-user-minus" /> Delete My Account
             </button>
           </div>
         </Fragment>
