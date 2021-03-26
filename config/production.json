@@ -1,5 +1,5 @@
 {
-  "mongoURI": "MONGO_URI = 'mongodb+srv://Brad_Traverse:Garagec250@cluster0.o5kvx.mongodb.net/beaver?retryWrites=true&w=majority",
+  "mongoURI": "//MONGO_URI = 'mongodb+vvvvvvvsrv://Brad_Traverse:Garagec250@cluster0.o5kvx.mongodb.net/beaver?retryWrites=true&w=majority",
   "jwtSecret": "mysecrettoken",
   "githubClientId": "86a2d4acd6325c08eb26",
   "Client Secret": "48fd5cd6b3d1a200adc106b17d9889cdcc4b6c09",
