@@ -1,11 +1,11 @@
 const mongoose = require('mongoose');
 const config = require('config');
-const dataBase = config.get('mongoURI');
+//const dataBase = config.get('mongoURI');
 
 const connectDB = async()=>{
     
     try{
-        await mongoose.connect(dataBase,{
+        await mongoose.connect(MONGO_URI = 'mongodb+srv://Brad_Traverse:Garagec250@cluster0.o5kvx.mongodb.net/beaver?retryWrites=true&w=majority',{
             useUnifiedTopology: true,
             useNewUrlParser: true,
             useCreateIndex:true
