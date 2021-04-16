@@ -14,7 +14,7 @@ app.use("/api/profile", require("./routes/api/profile"));
 app.use("/api/posts", require("./routes/api/post"));
 
 //serve static assets in production
-if (process.env.NODE_ENV === "production") {
+if (process.env.NODE_ENV === "default") {
   //Set static folder
   app.use(express.static("client/build"));
   app.get("*", (req, res) => {
