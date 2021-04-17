@@ -4,12 +4,11 @@
   "description": "Social nertwork for devs",
   "main": "server.js",
   "scripts": {
-    "build":"cd client && npm run build",
-    "install-client":"cd client && npm install",
-    "start": "node server.js",
+    "start": "node server",
+    "server": "node server",
     "client": "npm start --prefix client",
-    "heroku-postbuild":"npm run install-client && npm run build",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "Marcellus Jones",
   "license": "ISC",
