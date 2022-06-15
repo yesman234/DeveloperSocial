@@ -21,7 +21,7 @@
     "gravatar": "^1.8.2",
     "install": "^0.13.0",
     "jsonwebtoken": "^8.5.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "mongo-uri": "^0.1.2",
     "mongoose": "^5.13.7",
     "normalize-url": "^5.3.1",
