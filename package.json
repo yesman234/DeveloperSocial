@@ -13,7 +13,7 @@
   "author": "Marcellus Jones",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "bcryptjs": "^2.4.3",
     "config": "^3.3.7",
     "express": "^4.17.1",
@@ -21,7 +21,7 @@
     "gravatar": "^1.8.2",
     "install": "^0.13.0",
     "jsonwebtoken": "^8.5.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "mongo-uri": "^0.1.2",
     "mongoose": "^5.13.7",
     "normalize-url": "^5.3.1",
@@ -33,7 +33,7 @@
     "redux-thunk": "^2.3.0",
     "request": "^2.88.0",
     "sequelize": "^6.5.0",
-    "validator": "^12.1.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "concurrently": "^5.0.2",
