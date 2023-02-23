@@ -34,7 +34,7 @@
     "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^2.4.1",
     "request": "^2.88.2",
-    "sequelize": "^6.5.0",
+    "sequelize": "^6.28.2",
     "validator": "^13.7.0"
   },
   "devDependencies": {
